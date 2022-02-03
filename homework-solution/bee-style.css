@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+  aside.left,
+  main.left.supermain,
+  img.left {
+    float: none;
+  }
+  main,
+  aside {
+    width: 100%;
+  }
+}

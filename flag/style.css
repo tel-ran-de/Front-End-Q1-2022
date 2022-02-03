@@ -1,0 +1,99 @@
+body {
+  background-color: beige;
+}
+.wrapper {
+  /* border: 3px solid black; */
+  width: 400px;
+  margin: 50px auto;
+}
+.box {
+  width: 400px;
+  height: 150px;
+  border: transparent 1px solid;
+
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.one {
+  background-color: white;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: red;
+}
+
+@media (min-width: 600px) {
+  .one {
+    background-color: blue;
+  }
+  .two {
+    background-color: red;
+  }
+  .three {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 800px) {
+  .one {
+    background-color: red;
+  }
+  .two {
+    background-color: gold;
+  }
+  .three {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1000px) {
+  .one {
+    background-color: blue;
+  }
+  .two {
+    background-color: black;
+  }
+  .three {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .one {
+    background-color: white;
+  }
+  .two {
+    background-color: red;
+  }
+  .three {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1400px) {
+  .one {
+    background-color: black;
+  }
+  .two {
+    background-color: red;
+  }
+  .three {
+    background-color: gold;
+  }
+}
+
+@media (min-width: 1600px) {
+  .one {
+    background-color: blue;
+  }
+  .two {
+    background-color: yellow;
+  }
+  .three {
+    /* background-color: transparent; */
+    display: none;
+  }
+}
