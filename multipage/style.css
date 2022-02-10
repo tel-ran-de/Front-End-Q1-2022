@@ -1,0 +1,29 @@
+header {
+  background-color: beige;
+  height: 10vh;
+}
+
+nav {
+  height: 5rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+}
+.wrapper {
+  height: 50vh;
+  border: 1px solid gold;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  color: white;
+}
