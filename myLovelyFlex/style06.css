@@ -1,0 +1,13 @@
+nav {
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: end;
+}
+
+.logout,
+.home {
+  align-self: start;
+}
+
+/* justify-self: center; не работает */

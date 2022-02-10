@@ -1,0 +1,12 @@
+span {
+  /* width: 20%; */
+  flex: 1;
+}
+
+.search {
+  flex: 3;
+}
+
+.logout {
+  flex: 2;
+}

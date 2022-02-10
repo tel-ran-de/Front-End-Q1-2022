@@ -1,0 +1,8 @@
+nav {
+  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
+}
+
+span {
+  width: 200px;
+}

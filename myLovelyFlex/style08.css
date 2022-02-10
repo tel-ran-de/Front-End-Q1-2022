@@ -1,0 +1,16 @@
+/* flex grow, flex shrink, flex basis */
+/* Three values: flex-grow | flex-shrink | flex-basis */
+/* flex: 2 2 10%; */
+.shop {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.search {
+  flex: 1 5 0;
+}
+
+.contact {
+  flex: 2 5 0;
+}

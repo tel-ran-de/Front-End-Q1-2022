@@ -1,0 +1,22 @@
+nav {
+  height: 80vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  align-self: start;
+}
+
+.home {
+  align-self: end;
+}
+
+.shop {
+  align-self: flex-end;
+}
+
+.logout {
+  align-self: stretch;
+}

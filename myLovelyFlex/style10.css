@@ -1,0 +1,18 @@
+nav {
+  flex-direction: row;
+}
+
+.search {
+  flex: 1 5 0;
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    /* display: block; */
+    flex-direction: column;
+  }
+
+  .search {
+    order: -1;
+  }
+}
